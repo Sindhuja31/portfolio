@@ -1,0 +1,32 @@
+.health-img {
+    width: 100%; /* Ensures the image scales to its container */
+    max-width: 800px; /* Restricts the maximum size for responsiveness */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 12px; /* Adds rounded corners */
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
+    display: block; /* Centers the image using margin auto */
+    margin: 0 auto 20px; /* Centers and adds spacing below the image */
+}
+.health-img:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+
+/* General Styling for Transit Image */
+.transit-img {
+    width: 100%; /* Makes the image adapt to its container */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; /* Ensures the image covers the container neatly */
+    border-radius: 10px; /* Adds smooth, rounded corners */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animations */
+}
+
+/* Hover Effect */
+.transit-img:hover {
+    transform: scale(1.15); /* Enlarges the image slightly on hover */
+    filter: brightness(1.1) contrast(1.2); /* Enhances brightness and contrast for a dramatic effect */
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.4); /* Deeper shadow for emphasis */
+}
+
